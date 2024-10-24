@@ -31,7 +31,7 @@ const Header = ({autenticado}) => {
               <>
                 <MenuRight href="/">Home</MenuRight>
                 <Button onClick={() => navigate('/login')} title="Entrar" />
-                <Button title="Cadastrar" />
+                <Button onClick={() => navigate('/cadastro')} title="Cadastrar" />
               </>)}
           </Row>
       </Container>
